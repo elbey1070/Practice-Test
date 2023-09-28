@@ -26,6 +26,7 @@ public class Warehouse {
                 Warehouse.schoolInformation();
                 break;
             case "2": // Teacher Menu
+                Teacher.teacherMenu();
                 break;
             case "3": // Student Menu
                 break;
@@ -36,7 +37,6 @@ public class Warehouse {
                 System.out.println("Please choose valid data");
         }
         }while (!choose.equalsIgnoreCase("q"));
-
         Warehouse.stopProject();
     }
 
