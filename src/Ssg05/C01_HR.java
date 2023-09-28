@@ -1,6 +1,6 @@
 package Ssg05;
 
-public class C01_IK {
+public class C01_HR {
 
     public static int counter=100;
 
@@ -10,12 +10,58 @@ public class C01_IK {
     public String surName;
     public int id;
 
-    public int idAtama(){
+    public int idRegister(){
 
         id=counter;
         counter++;
         return id;
     }
 
-
+    public static int getCounter() {
+        return counter;
     }
+
+    public static void setCounter(int counter) {
+        C01_HR.counter = counter;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurName() {
+        return surName;
+    }
+
+    public void setSurName(String surName) {
+        this.surName = surName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}
