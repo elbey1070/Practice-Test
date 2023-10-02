@@ -17,13 +17,6 @@ public class C01_HR {
         return id;
     }
 
-    public static int getCounter() {
-        return counter;
-    }
-
-    public static void setCounter(int counter) {
-        C01_HR.counter = counter;
-    }
 
     public String getPhone() {
         return phone;
