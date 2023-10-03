@@ -12,6 +12,7 @@ public class C03_Employee extends C02_Account {
         worker3.setName("Jack");
         System.out.println(worker3.adress);
         System.out.println(worker3);
+        System.out.println(worker3.salaryCalculate());
 
 
     }
