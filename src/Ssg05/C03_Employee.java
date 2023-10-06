@@ -16,10 +16,17 @@ public class C03_Employee extends C02_Account {
         C03_Employee worker1001 = new C03_Employee();
         worker1001.setName("Tom");
         System.out.println(worker1001);
+        C03_Employee worker2002 = new C03_Employee("John","Mac");
+        System.out.println(worker2002);
+        worker2002.setName("John");
+        System.out.println(worker2002.name);
 
 
     }
 
+    public C03_Employee(String name,String surNAme){
+
+    }
     public C03_Employee() {
     }
 
